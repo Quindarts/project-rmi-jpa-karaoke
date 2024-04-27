@@ -1,0 +1,32 @@
+IDichVu DAO_DV = (IDichVu) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "dichVuDAO");
+
+IThongTinDichVu DAO_TTDV = (IThongTinDichVu) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "thongTinDichVuDAO");
+
+IPhong DAO_P = (IPhong) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "phongDAO");
+
+ILoaiPhong DAO_LP = (ILoaiPhong) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "loaiPhongDAO");
+
+ITrangThaiPhong DAO_TTP = (ITrangThaiPhong) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "trangThaiPhongDAO");
+
+
+IChiTietDichVu DAO_CTDV = (IChiTietDichVu) Naming
+								.lookup("rmi://DESKTOP-CVG78RE:7878/" + "chiTietDichVuDAO");
+
+IHoaDon DAO_HD = (IHoaDon) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "hoaDonDAO");
+
+IChiTietHoaDon DAO_CTHD = (IChiTietHoaDon) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "chiTietHoaDonDAO");
+
+IKhachHang DAO_KH = (IKhachHang) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "khachHangDAO");
+
+ILoaiNhanVien DAO_LNV = (ILoaiNhanVien) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "loaiNhanVienDAO");
+
+INhanVien DAO_NV = (INhanVien) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "nhanVienDAO");
+
+ITaiKhoan DAO_TK = (ITaiKhoan) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "taiKhoanDAO");
+
+IPhieuDatPhong DAO_PDP = (IPhieuDatPhong) Naming.lookup("rmi://DESKTOP-CVG78RE:7878/" + "phieuDatPhongDAO");
+
+ITrangThaiNhanVien DAO_TTNV = (ITrangThaiNhanVien) Naming
+					.lookup("rmi://DESKTOP-CVG78RE:7878/" + "trangThaiNhanVienDAO");
+ITrangThaiHoaDon DAO_TTHD = (ITrangThaiHoaDon) Naming
+							.lookup("rmi://DESKTOP-CVG78RE:7878/" + "trangThaiHoaDonDAO");
